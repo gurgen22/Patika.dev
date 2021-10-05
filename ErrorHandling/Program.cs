@@ -22,11 +22,11 @@ namespace ErrorHandling
                 Console.WriteLine("İşlem tamamlandı.");
             }
 
-            try
-            {
-                int a = int.Parse(null);
+            //try
+            //{
+            //    int a = int.Parse(null);
 
-            }
+            //}
 
             //catch (Exception e)
             //{
