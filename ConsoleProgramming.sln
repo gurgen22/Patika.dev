@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleProgrammingVariable"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operators", "Operators\Operators.csproj", "{4210D546-5FBB-4E41-A18D-C04A41A6EFCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeConversions", "TypeConversions\TypeConversions.csproj", "{8EDEFF16-5343-4CF2-A71D-FDF6ED0F49CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeConversions", "TypeConversions\TypeConversions.csproj", "{8EDEFF16-5343-4CF2-A71D-FDF6ED0F49CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandling", "ErrorHandling\ErrorHandling.csproj", "{FB7569D9-9B0D-4CBB-826D-1CFD85F62945}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{8EDEFF16-5343-4CF2-A71D-FDF6ED0F49CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EDEFF16-5343-4CF2-A71D-FDF6ED0F49CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EDEFF16-5343-4CF2-A71D-FDF6ED0F49CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB7569D9-9B0D-4CBB-826D-1CFD85F62945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB7569D9-9B0D-4CBB-826D-1CFD85F62945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB7569D9-9B0D-4CBB-826D-1CFD85F62945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB7569D9-9B0D-4CBB-826D-1CFD85F62945}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{211DC73B-1337-4E72-A396-2D1867399698} = {0F70AEE6-5309-4DE3-9D95-33278F24FF83}
 		{4210D546-5FBB-4E41-A18D-C04A41A6EFCD} = {0F70AEE6-5309-4DE3-9D95-33278F24FF83}
 		{8EDEFF16-5343-4CF2-A71D-FDF6ED0F49CF} = {0F70AEE6-5309-4DE3-9D95-33278F24FF83}
+		{FB7569D9-9B0D-4CBB-826D-1CFD85F62945} = {0F70AEE6-5309-4DE3-9D95-33278F24FF83}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6033F580-11F6-4D8B-BF1B-9D9E07504556}
