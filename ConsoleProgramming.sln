@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enum", "Enum\Enum.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCase", "SwitchCase\SwitchCase.csproj", "{9C60FD05-5220-4714-8F4F-A900F324CE03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForLoop", "ForLoop\ForLoop.csproj", "{C6943095-6522-49E3-A4BC-B24D42A0ED49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{9C60FD05-5220-4714-8F4F-A900F324CE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C60FD05-5220-4714-8F4F-A900F324CE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C60FD05-5220-4714-8F4F-A900F324CE03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6943095-6522-49E3-A4BC-B24D42A0ED49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6943095-6522-49E3-A4BC-B24D42A0ED49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6943095-6522-49E3-A4BC-B24D42A0ED49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6943095-6522-49E3-A4BC-B24D42A0ED49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
