@@ -29,11 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayMethods", "ArrayMethods\ArrayMethods.csproj", "{61B44BE8-3D1B-4519-B1DF-D14C8AA81C64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{E9D1F9F6-6DA7-45FD-B19B-281F53A63856}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{E9D1F9F6-6DA7-45FD-B19B-281F53A63856}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverloading", "MethodOverloading\MethodOverloading.csproj", "{71DA0D4C-4F48-4A20-87DC-AEE82350A612}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodOverloading", "MethodOverloading\MethodOverloading.csproj", "{71DA0D4C-4F48-4A20-87DC-AEE82350A612}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionRecursiveMethods", "ExtensionRecursiveMethods\ExtensionRecursiveMethods.csproj", "{49C92969-69E0-4A1B-A0B8-762E0C2729FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionRecursiveMethods", "ExtensionRecursiveMethods\ExtensionRecursiveMethods.csproj", "{49C92969-69E0-4A1B-A0B8-762E0C2729FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises", "Exercises\Exercises.csproj", "{0B03E981-DE73-451B-9484-0048CDFF0A21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +103,10 @@ Global
 		{49C92969-69E0-4A1B-A0B8-762E0C2729FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49C92969-69E0-4A1B-A0B8-762E0C2729FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49C92969-69E0-4A1B-A0B8-762E0C2729FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B03E981-DE73-451B-9484-0048CDFF0A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B03E981-DE73-451B-9484-0048CDFF0A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B03E981-DE73-451B-9484-0048CDFF0A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B03E981-DE73-451B-9484-0048CDFF0A21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
