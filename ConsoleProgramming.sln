@@ -37,9 +37,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionRecursiveMethods",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercises", "Exercises\Exercises.csproj", "{0B03E981-DE73-451B-9484-0048CDFF0A21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringMethods", "StringMethods\StringMethods.csproj", "{0B9453D1-E3FC-4460-A6E7-BD2D17E31366}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringMethods", "StringMethods\StringMethods.csproj", "{0B9453D1-E3FC-4460-A6E7-BD2D17E31366}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathClass", "MathClass\MathClass.csproj", "{B8A9FEAE-D56D-4738-BAFD-9CC0A9619B83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathClass", "MathClass\MathClass.csproj", "{B8A9FEAE-D56D-4738-BAFD-9CC0A9619B83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericList", "GenericList\GenericList.csproj", "{74534741-8AC3-4902-9CDA-5A7A974CF565}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -119,6 +121,10 @@ Global
 		{B8A9FEAE-D56D-4738-BAFD-9CC0A9619B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8A9FEAE-D56D-4738-BAFD-9CC0A9619B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8A9FEAE-D56D-4738-BAFD-9CC0A9619B83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74534741-8AC3-4902-9CDA-5A7A974CF565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74534741-8AC3-4902-9CDA-5A7A974CF565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74534741-8AC3-4902-9CDA-5A7A974CF565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74534741-8AC3-4902-9CDA-5A7A974CF565}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
