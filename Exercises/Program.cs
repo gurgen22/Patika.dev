@@ -9,10 +9,10 @@ namespace Exercises
     {
         static void Main(string[] args)
         {
-            
+
             Console.WriteLine("Ödev numarasını giriniz.");
             int odev = Convert.ToInt32(Console.ReadLine());
-            if (odev==1)
+            if (odev == 1)
             {
                 Console.WriteLine("Pozitif bir tam sayı giriniz.");
                 int sayi = Convert.ToInt32(Console.ReadLine());
@@ -34,9 +34,9 @@ namespace Exercises
                 }
             }
 
-           
-           
-            else if(odev==2)
+
+
+            else if (odev == 2)
             {
                 Console.WriteLine("Pozitif tam sayı giriniz.");
                 int n = Convert.ToInt32(Console.ReadLine());
@@ -60,7 +60,7 @@ namespace Exercises
                     }
                 }
             }
-           else if (odev == 3)
+            else if (odev == 3)
             {
                 Console.WriteLine("Pozitif bir sayı giriniz.");
                 int n = Convert.ToInt32(Console.ReadLine());
@@ -80,17 +80,18 @@ namespace Exercises
             }
             else if (odev == 4)
             {
-                
+
                 Console.WriteLine("1 cümle giriniz.");
                 string gelenDeger = Console.ReadLine();
-               string[] liste = gelenDeger.Split(" ");
-               Console.WriteLine("Kelime sayısı: "+liste.Length);
-               Console.WriteLine("Karakter sayısı: "+gelenDeger.Length);
+                string[] liste = gelenDeger.Split(" ");
+                Console.WriteLine("Kelime sayısı: " + liste.Length);
+                Console.WriteLine("Karakter sayısı: " + gelenDeger.Length);
             }
             else
             {
                 Console.WriteLine("Hatalı işlem yapıldı.");
             }
-            
+
+        }
     }
 }
