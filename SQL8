@@ -1,0 +1,48 @@
+CREATE TABLE employee  (
+  id int PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  email VARCHAR(100)
+  birthday DATE
+);
+
+INSERT INTO employee (id, name, email) values (1, 'Ronstring');
+INSERT INTO employee (id, name, price) values (2, 'Duobam');
+INSERT INTO employee (id, name, price) values (3, 'Tresom');
+INSERT INTO employee (id, name, price) values (4, 'Redhold');
+INSERT INTO employee (id, name, price) values (5, 'Y-find',find@gmail.com);
+
+UPDATE employee
+SET name = 'Marry'
+WHERE id = 1;
+
+UPDATE employee
+SET name = 'Jones'
+WHERE name = 'Marry';
+
+UPDATE employee
+SET email = 'ffind1@gmail.com'
+WHERE email = 'find@gmail.com;
+
+UPDATE employee
+SET name = 'Alice'
+WHERE id = 2;
+
+UPDATE employee
+SET name = 'Cara'
+WHERE id = 3;
+
+DELETE FROM employee
+WHERE name = 'Cara';
+
+DELETE FROM employee
+WHERE name = 'Alice';
+
+DELETE FROM employee
+WHERE email = 'ffind1@gmail.com';
+
+DELETE FROM employee
+WHERE id = '1';
+
+DELETE FROM employee
+WHERE id = '2';
+
